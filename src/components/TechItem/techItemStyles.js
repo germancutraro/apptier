@@ -14,4 +14,7 @@ export const TechItem = styled.div`
 
 export const TechTitle = styled.small`
   color: #fff;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 10px;
 `;

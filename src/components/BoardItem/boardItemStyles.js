@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ItemContainer = styled.div`
   user-select: none;
-  width: 80px;
+  width: 85px;
   height: 90px;
   display: flex;
   flex-direction: column;
@@ -14,4 +14,7 @@ export const ItemContainer = styled.div`
 
 export const ItemTitle = styled.small`
   color: #fff;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 10px;
 `;

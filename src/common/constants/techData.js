@@ -4,7 +4,7 @@ import JavaIcon from '../../../public/svgs/langs/java.svg?component';
 export default [
   {
     id: 'aws_lambda',
-    title: 'AWS Lambda',
+    title: 'Lambda',
     Icon: LambdaIcon
   },
   {

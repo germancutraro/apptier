@@ -16,7 +16,8 @@
     "react-beautiful-dnd": "^13.1.0",
     "react-dom": "^17.0.0",
     "react-router-dom": "^5.2.0",
-    "styled-components": "^5.3.0"
+    "styled-components": "^5.3.0",
+    "styled-normalize": "^8.0.7"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.12.0",
