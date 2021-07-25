@@ -4,9 +4,9 @@ import * as S from './boardListStyles';
 
 const BoardList = ({ items, provided }) => (
   <S.ListContainer ref={provided.innerRef}>
-    {items?.map(({ id, content, Icon }, index) => (
+    {items?.map(({ id, title, Icon }, index) => (
       <Draggable key={id} draggableId={id} index={index}>
-        {provided => <BoardItem provided={provided} title={content} Icon={Icon} />}
+        {provided => <BoardItem provided={provided} title={title} Icon={Icon} />}
       </Draggable>
     ))}
     {provided.placeholder}
