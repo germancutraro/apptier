@@ -1,15 +1,16 @@
 import styled from 'styled-components';
 
 export const ItemContainer = styled.div`
-  user-select: none;
-  width: 85px;
-  height: 90px;
+  background: #242938;
+  height: 86px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: 'center';
-  padding: 15px;
-  background: #242938;
+  align-items: center;
+  padding: 8px;
+  margin: 3px;
+  user-select: none;
+  border-radius: 4px;
 `;
 
 export const ItemTitle = styled.small`
